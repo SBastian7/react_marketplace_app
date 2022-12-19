@@ -1,10 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;400;600;700&display=swap');
 .App {
   text-align: center;
+  font-family: 'Dosis', sans-serif;
+}
+#root {
+  font-family: 'Dosis', sans-serif;
+}
+
+.bg-gradient {
+  background-color: #606c88;  /* fallback for old browsers */
+  background-color: -webkit-linear-gradient(to right, #3f4c6b, #606c88);  /* Chrome 10-25, Safari 5.1-6 */
+  background-color: linear-gradient(to right, #3f4c6b, #606c88); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
+}
+
+@media only screen and (max-width: 768px) {
+  /* #root {
+    background-image: url('./assets/images/shoes-g82cf15a59_1920.jpg');
+    background-size: 100vw 100vh;
+    height: 100vh;
+    background-repeat: no-repeat;
+  } */
 }
 
 @media (prefers-reduced-motion: no-preference) {
